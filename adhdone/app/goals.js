@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import { useRouter } from "expo-router";
 
-export default function Details() {
+export default function Goals() {
   const router = useRouter();
   return (
     <View>
@@ -10,6 +10,8 @@ export default function Details() {
           // Go back to the previous screen using the imperative API.
           router.back();
         }}
+
+        style={{ marginTop: 20, color: "blue" }}
       >
         Details Screen
       </Text>
